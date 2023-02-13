@@ -131,12 +131,23 @@ $(document).ready(function () {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
-          background: url("img/iput-bg.jpg"),
+          background: '#fff url("img/iput-bg.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
+      
+          
         });
-       
+       Swal.fire({
+          width: 900,
+          confirmButtonText: textConfig.text12,
+          background: '#fff url("img/iput-bg.jpg")',
+          title: textConfig.text10,
+          text: textConfig.text11,
+          confirmButtonColor: "#83d0c9",
+      
+          
+        });
         
         
       }
