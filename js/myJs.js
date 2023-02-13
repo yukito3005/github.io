@@ -139,6 +139,17 @@ $(document).ready(function () {
       
           
         });
+        Swal.fire({
+          width: 900,
+          confirmButtonText: textConfig.text10,
+          background: '#fff url("img/iput-bg.jpg")',
+          title: textConfig.text9,
+          text: textConfig.text8,
+  
+          confirmButtonColor: "#83d0c9",
+      
+          
+        });
       }
     });
 
