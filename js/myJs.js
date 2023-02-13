@@ -134,22 +134,22 @@ $(document).ready(function () {
           background: '#fff url("img/iput-bg.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
-  
           confirmButtonColor: "#83d0c9",
       
           
         });
-        Swal.fire({
+       Swal.fire({
           width: 900,
-          confirmButtonText: textConfig.text10,
+          confirmButtonText: textConfig.text12,
           background: '#fff url("img/iput-bg.jpg")',
-          title: textConfig.text9,
-          text: textConfig.text8,
-  
+          title: textConfig.text10,
+          text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
       
           
         });
+        
+        
       }
     });
 
