@@ -38,6 +38,11 @@
   border-radius: 15px !important;
 }
 
+.swal2-confirm {
+  font-family: Pacifico;
+  font-size: 14px;
+}
+
 header h2 {
   font-family: 'Pacifico';
   font-size: 80px;
