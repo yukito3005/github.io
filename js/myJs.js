@@ -85,24 +85,7 @@ $(document).ready(function () {
   });
 
   // generate text in input
-  function textGenerate() {
-    var n = "";
-    var text = " " + textConfig.text9;
-    var a = Array.from(text);
-    var textVal = $("#txtReason").val() ? $("#txtReason").val() : "";
-    var count = textVal.length;
-    if (count > 0) {
-      for (let i = 1; i <= count; i++) {
-        n = n + a[i];
-        if (i == text.length + 1) {
-          $("#txtReason").val("");
-          n = "";
-          break;
-        }
-      }
-    }
-    $("#txtReason").val(n);
-  }
+  
 
   // show popup
   $("#yes").click(function () {
