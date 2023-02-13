@@ -7,11 +7,10 @@ const textConfig = {
   text6: "Yêu ơi là yêu <3",
   text7: "Cậu có điều gì muốn nhắn nhủ với tớ hok nè",
   text8: "Gửi cho tớ ngay nào <<<3",
-  text9: "Vì cậu đẹp try vlllll",
   text10: "Tớ biết mà ^^ Love U 3000",
-  text11: "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
+  text11: "Tối mai tớ qua đưa cậu đi ăn nhaa :v Còn giờ thì khuya òi, đi nhủ hoi <3",
   text12: "Okii lunn <3",
-  text13: "Thích thì nhích",
+ 
 };
 
 $(document).ready(function () {
@@ -135,7 +134,7 @@ $(document).ready(function () {
           background: '#fff url("img/iput-bg.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
-          text: textConfig.text13,
+  
           confirmButtonColor: "#83d0c9",
       
           
