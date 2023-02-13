@@ -134,12 +134,11 @@ $(document).ready(function () {
           confirmButtonText: textConfig.text12,
           background: '#fff url("img/iput-bg.jpg")',
           title: textConfig.text10,
-          text: textConfig.text11,
+       
           text: textConfig.text13,
           confirmButtonColor: "#83d0c9",
-          onClose: () => {
-            window.location = "http://fb.com";
-          },
+      
+          
         });
       }
     });
