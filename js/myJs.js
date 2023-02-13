@@ -11,7 +11,7 @@ const textConfig = {
   text10: "Tớ biết mà ^^ Love U 3000",
   text11: "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
   text12: "Okii lunn <3",
-  text13: "thích thì nhích",
+  text13: "Thích thì nhích",
 };
 
 $(document).ready(function () {
