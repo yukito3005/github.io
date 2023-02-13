@@ -137,12 +137,7 @@ $(document).ready(function () {
     confirmButtonColor: "#83d0c9",
   });
 
-  Swal.fire({
-    title: "Success!",
-    text: "The first modal was closed and this one was opened!",
-    icon: "success",
-    confirmButtonColor: "#3f51b5"
-  });
+  
 }
     });
 
