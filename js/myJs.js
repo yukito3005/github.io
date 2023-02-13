@@ -128,18 +128,22 @@ $(document).ready(function () {
       confirmButtonText: textConfig.text8,
     }).then((result) => {
       if (result.value) {
-        Swal.fire({
-          width: 900,
-          confirmButtonText: textConfig.text12,
-          background: url("img/iput-bg.jpg"),
-          title: textConfig.text10,
-          text: textConfig.text11,
-          confirmButtonColor: "#83d0c9",
-        });
-       
-        
-        
-      }
+  Swal.fire({
+    width: 900,
+    confirmButtonText: textConfig.text12,
+    background: url("img/iput-bg.jpg"),
+    title: textConfig.text10,
+    text: textConfig.text11,
+    confirmButtonColor: "#83d0c9",
+  });
+
+  Swal.fire({
+    title: "Success!",
+    text: "The first modal was closed and this one was opened!",
+    icon: "success",
+    confirmButtonColor: "#3f51b5"
+  });
+}
     });
 
     $("#txtReason").focus(function () {
