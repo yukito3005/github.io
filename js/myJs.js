@@ -8,9 +8,10 @@ const textConfig = {
   text7: "Cậu có điều gì muốn nhắn nhủ với tớ hok nè",
   text8: "Gửi cho tớ ngay nào <<<3",
   text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text10: "Tớ biết mà ^^ Love U 3000",
   text11: "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
   text12: "Okii lunn <3",
+  text13: "thích thì nhích",
 };
 
 $(document).ready(function () {
@@ -116,8 +117,7 @@ $(document).ready(function () {
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='gõ vào đây lè....'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
-                    rgba(0,0,123,0.4)
-                    
+                    rgba(0,0,123,0.4)              
                     left top
                     no-repeat
                   `,
@@ -135,6 +135,7 @@ $(document).ready(function () {
           background: '#fff url("img/iput-bg.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
+          text: textConfig.text13,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
             window.location = "http://fb.com";
