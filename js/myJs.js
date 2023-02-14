@@ -7,11 +7,12 @@ const textConfig = {
   text6: "Yêu ơi là yêu <3",
   text7: "Cậu có điều gì muốn nhắn nhủ với tớ hok nè",
   text8: "Gửi cho tớ ngay nào <<<3",
-  text10: "Tớ biết mà ^^ Love U 3000",
-  text11: "Tớ có điều này muốn nói với Cậu...",
-  text12: "Okii lunn <3",
+  text10: "Tớ nhận được òi ^^ Love U 3000",
+  text11: "và Tớ cũng có điều này muốn nói với Cậu...",
+  text12: "Xem tiếp nào <3",
+  
   text13: "love U",
- 
+  text14: "Okii lunn <3",
 };
 
 $(document).ready(function () {
@@ -117,7 +118,7 @@ $(document).ready(function () {
   confirmButtonText: textConfig.text12,
   background: '#fff url("img/iput-bg.jpg")',
   title: textConfig.text10,
-  text: textConfig.text11,
+  
   confirmButtonColor: "#83d0c9",
 }).then(() => {
   Swal.fire({
