@@ -10,6 +10,7 @@ const textConfig = {
   text10: "Tớ biết mà ^^ Love U 3000",
   text11: "Tối mai tớ qua đưa cậu đi ăn nhaa :v Còn giờ thì khuya òi, đi nhủ hoi <3",
   text12: "Okii lunn <3",
+  text13: "love U",
  
 };
 
@@ -112,13 +113,29 @@ $(document).ready(function () {
     }).then((result) => {
       if (result.value) {
         Swal.fire({
-          width: 900,
-          confirmButtonText: textConfig.text12,
-          background: '#fff url("img/iput-bg.jpg")',
-          title: textConfig.text10,
-          text: textConfig.text11,
-          confirmButtonColor: "#83d0c9",
-        });
+  width: 900,
+  confirmButtonText: textConfig.text12,
+  background: '#fff url("img/iput-bg.jpg")',
+  title: textConfig.text10,
+  text: textConfig.text11,
+  confirmButtonColor: "#83d0c9",
+}).then(() => {
+  Swal.fire({
+    title: textConfig.text13,
+    width: 900,
+    padding: "3em",
+    background: '#fff url("img/iput-bg.jpg")',
+    backdrop: `
+      rgba(0,0,123,0.4)              
+      left top
+      no-repeat
+    `,
+    showCancelButton: false,
+    confirmButtonColor: "#fe8a71",
+    confirmButtonText: textConfig.text12,
+  });
+});
+
        
         
         
