@@ -89,6 +89,7 @@ $(document).ready(function () {
   // generate text in input
   
 
+  
   // show popup
   $("#yes").click(function () {
     var audio = new Audio("sound/tick.mp3");
@@ -112,8 +113,10 @@ $(document).ready(function () {
       cancelButtonColor: "#f6cd61",
       confirmButtonText: textConfig.text8,
     }).then((result) => {
-      if (result.value) {
-        Swal.fire({
+    
+      
+      
+    Swal.fire({
   width: 900,
   confirmButtonText: textConfig.text12,
   background: '#fff url("img/iput-bg.jpg")',
@@ -149,13 +152,16 @@ $(document).ready(function () {
       confirmButtonColor: "#fe8a71",
       confirmButtonText: textConfig.text12,
     });
-          
-          
+  });
 });
 
-       
-        
-        
+      
+      
+      
+    }
+     
+            
+            
       }
     });
 
