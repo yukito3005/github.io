@@ -119,23 +119,8 @@ $(document).ready(function () {
   confirmButtonText: textConfig.text12,
   background: '#fff url("img/iput-bg.jpg")',
   title: textConfig.text10,
-  
+  text: textConfig.text11,
   confirmButtonColor: "#83d0c9",
-}).then(() => {
-  Swal.fire({
-    title: textConfig.text11,
-    width: 900,
-    padding: "3em",
-    background: '#fff url("img/iput-bg.jpg")',
-    backdrop: `
-      rgba(0,0,123,0.4)              
-      left top
-      no-repeat
-    `,
-    showCancelButton: false,
-    confirmButtonColor: "#fe8a71",
-    confirmButtonText: textConfig.text12,
-  });
 }).then(() => {
   Swal.fire({
     title: textConfig.text13,
@@ -150,12 +135,26 @@ $(document).ready(function () {
     showCancelButton: false,
     confirmButtonColor: "#fe8a71",
     confirmButtonText: textConfig.text12,
+  }).then(() => {
+    Swal.fire({
+      title: textConfig.text14,
+      width: 900,
+      padding: "3em",
+      background: '#fff url("img/iput-bg.jpg")',
+      backdrop: `
+        rgba(0,0,123,0.4)              
+        left top
+        no-repeat
+      `,
+      showCancelButton: false,
+      confirmButtonColor: "#fe8a71",
+      confirmButtonText: textConfig.text12,
+    });
   });
 });
 
-       
-        
-        
+
+
       }
     });
 
