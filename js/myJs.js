@@ -135,6 +135,21 @@ $(document).ready(function () {
     confirmButtonColor: "#fe8a71",
     confirmButtonText: textConfig.text12,
   });
+}).then(() => {
+  Swal.fire({
+    title: textConfig.text13,
+    width: 900,
+    padding: "3em",
+    background: '#fff url("img/iput-bg.jpg")',
+    backdrop: `
+      rgba(0,0,123,0.4)              
+      left top
+      no-repeat
+    `,
+    showCancelButton: false,
+    confirmButtonColor: "#fe8a71",
+    confirmButtonText: textConfig.text12,
+  });
 });
 
        
