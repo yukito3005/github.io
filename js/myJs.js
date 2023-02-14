@@ -11,7 +11,7 @@ const textConfig = {
   text11: "và Tớ cũng có điều này muốn nói với Cậu...",
   text12: "Xem tiếp nào <3",
   
-  text13: "love U",
+  text13: "Hy vọng Cậu có một ngày đầy tình yêu, niềm vui và ấm áp bên tớ nhé. Hãy trân trọng những khoảnh khắc đẹp bên nhau và luôn gửi đến nhau những lời yêu thương và hãy chăm sóc nhau suốt cả cuộc đời.",
   text14: "Okii lunn <3",
   text15: "sdsdsdsd,"
 };
@@ -148,7 +148,7 @@ $(document).ready(function () {
       `,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
-      confirmButtonText: textConfig.text12,
+      confirmButtonText: textConfig.text13,
     });
   });
 });
