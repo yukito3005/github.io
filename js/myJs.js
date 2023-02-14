@@ -122,7 +122,7 @@ $(document).ready(function () {
   confirmButtonColor: "#83d0c9",
 }).then(() => {
   Swal.fire({
-    title: textConfig.text13,
+    title: textConfig.text11,
     width: 900,
     padding: "3em",
     background: '#fff url("img/iput-bg.jpg")',
