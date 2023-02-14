@@ -14,6 +14,7 @@ const textConfig = {
   text13: "Hy vọng Cậu có một ngày đầy tình yêu, niềm vui và ấm áp bên tớ nhé. Hãy trân trọng những khoảnh khắc đẹp bên nhau và luôn gửi đến nhau những lời yêu thương và hãy chăm sóc nhau suốt cả cuộc đời .",
   text14: "Okii lunn <3",
   text15: "Làm thật giỏi nè, chiều xong sớm Tớ qua chở Cậu đi ăn hen!!!",
+  text16: "love U <3",
 };
 
 $(document).ready(function () {
@@ -134,7 +135,7 @@ $(document).ready(function () {
     `,
     showCancelButton: false,
     confirmButtonColor: "#fe8a71",
-    confirmButtonText: textConfig.text14,
+    confirmButtonText: textConfig.text16,
   }).then(() => {
     Swal.fire({
       title: textConfig.text15,
