@@ -13,7 +13,6 @@ const textConfig = {
   
   text13: "Hy vọng Cậu có một ngày đầy tình yêu, niềm vui và ấm áp bên tớ nhé. Hãy trân trọng những khoảnh khắc đẹp bên nhau và luôn gửi đến nhau những lời yêu thương và hãy chăm sóc nhau suốt cả cuộc đời.",
   text14: "Okii lunn <3",
-  text15: "sdsdsdsd,"
 };
 
 $(document).ready(function () {
@@ -137,7 +136,7 @@ $(document).ready(function () {
     confirmButtonText: textConfig.text12,
   }).then(() => {
     Swal.fire({
-      title: textConfig.text14,
+      title: textConfig.text13,
       width: 900,
       padding: "3em",
       background: '#fff url("img/iput-bg.jpg")',
@@ -148,7 +147,7 @@ $(document).ready(function () {
       `,
       showCancelButton: false,
       confirmButtonColor: "#fe8a71",
-      confirmButtonText: textConfig.text13,
+      confirmButtonText: textConfig.text14,
     });
   });
 });
