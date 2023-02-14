@@ -1,6 +1,6 @@
 const textConfig = {
   text1: "Helooo cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
+  text2: "Tớ có điều này muốn nói với Cậu...",
   text3: "Cậu yêu tớ nhiều lắm hok nào ._.",
   text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
   text5: "Mơ đi cậu à???",
@@ -8,7 +8,7 @@ const textConfig = {
   text7: "Cậu có điều gì muốn nhắn nhủ với tớ hok nè",
   text8: "Gửi cho tớ ngay nào <<<3",
   text10: "Tớ biết mà ^^ Love U 3000",
-  text11: "Tối mai tớ qua đưa cậu đi ăn nhaa :v Còn giờ thì khuya òi, đi nhủ hoi <3",
+  text11: "Tớ có điều này muốn nói với Cậu...",
   text12: "Okii lunn <3",
   text13: "love U",
  
