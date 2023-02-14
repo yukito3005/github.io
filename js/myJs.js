@@ -13,7 +13,7 @@ const textConfig = {
   
   text13: "love U",
   text14: "Okii lunn <3",
-  text15: "sdsdsdsd,"
+  text15: "sdsdsdsd",
 };
 
 $(document).ready(function () {
