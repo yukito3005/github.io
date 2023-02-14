@@ -11,6 +11,7 @@ const textConfig = {
   text11: "Tối mai tớ qua đưa cậu đi ăn nhaa :v Còn giờ thì khuya òi, đi nhủ hoi <3",
   text12: "Okii lunn <3",
   text13: "love U",
+  text14: "dsdasdasd",
  
 };
 
