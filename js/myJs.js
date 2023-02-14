@@ -11,8 +11,9 @@ const textConfig = {
   text11: "và Tớ cũng có điều này muốn nói với Cậu...",
   text12: "Xem tiếp nào <3",
   
-  text13: "Hy vọng Cậu có một ngày đầy tình yêu, niềm vui và ấm áp bên tớ nhé. Hãy trân trọng những khoảnh khắc đẹp bên nhau và luôn gửi đến nhau những lời yêu thương và hãy chăm sóc nhau suốt cả cuộc đời.",
+  text13: "Hy vọng Cậu có một ngày đầy tình yêu, niềm vui và ấm áp bên tớ nhé. Hãy trân trọng những khoảnh khắc đẹp bên nhau và luôn gửi đến nhau những lời yêu thương và hãy chăm sóc nhau suốt cả cuộc đời .",
   text14: "Okii lunn <3",
+  text15: "Làm thật giỏi nè, chiều xong sớm Tớ qua chở Cậu đi ăn hen!!!",
 };
 
 $(document).ready(function () {
@@ -133,10 +134,10 @@ $(document).ready(function () {
     `,
     showCancelButton: false,
     confirmButtonColor: "#fe8a71",
-    confirmButtonText: textConfig.text12,
+    confirmButtonText: textConfig.text14,
   }).then(() => {
     Swal.fire({
-      title: textConfig.text13,
+      title: textConfig.text15,
       width: 900,
       padding: "3em",
       background: '#fff url("img/iput-bg.jpg")',
