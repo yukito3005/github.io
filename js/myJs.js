@@ -11,7 +11,6 @@ const textConfig = {
   text11: "Tối mai tớ qua đưa cậu đi ăn nhaa :v Còn giờ thì khuya òi, đi nhủ hoi <3",
   text12: "Okii lunn <3",
   text13: "love U",
-  text14: "dsdasdasd",
  
 };
 
@@ -89,7 +88,6 @@ $(document).ready(function () {
   // generate text in input
   
 
-  
   // show popup
   $("#yes").click(function () {
     var audio = new Audio("sound/tick.mp3");
@@ -113,10 +111,8 @@ $(document).ready(function () {
       cancelButtonColor: "#f6cd61",
       confirmButtonText: textConfig.text8,
     }).then((result) => {
-    
-      
-      
-    Swal.fire({
+      if (result.value) {
+        Swal.fire({
   width: 900,
   confirmButtonText: textConfig.text12,
   background: '#fff url("img/iput-bg.jpg")',
@@ -137,31 +133,12 @@ $(document).ready(function () {
     showCancelButton: false,
     confirmButtonColor: "#fe8a71",
     confirmButtonText: textConfig.text12,
-  }).then(() => {
-    Swal.fire({
-      title: textConfig.text14,
-      width: 900,
-      padding: "3em",
-      background: '#fff url("img/iput-bg.jpg")',
-      backdrop: `
-        rgba(0,0,123,0.4)              
-        left top
-        no-repeat
-      `,
-      showCancelButton: false,
-      confirmButtonColor: "#fe8a71",
-      confirmButtonText: textConfig.text12,
-    });
   });
 });
 
-      
-      
-      
-    }
-     
-            
-            
+       
+        
+        
       }
     });
 
